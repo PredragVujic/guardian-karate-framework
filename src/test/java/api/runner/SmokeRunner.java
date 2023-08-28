@@ -2,8 +2,8 @@ package api.runner;
 
 import com.intuit.karate.junit5.Karate;
 
-public class TestRunner {
-
+public class SmokeRunner {
+	
 	
 	@Karate.Test
 	public Karate runTest() {
@@ -14,4 +14,5 @@ public class TestRunner {
 			.tags("@Smoke");
 	
   }
+
 }
